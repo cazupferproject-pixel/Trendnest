@@ -1,1 +1,21 @@
-
+{
+  "name": "trendnest",
+  "version": "1.0.0",
+  "description": "Discover what's worth buying",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "ISC"
+}
